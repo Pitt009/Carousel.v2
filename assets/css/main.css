@@ -1,7 +1,35 @@
+body{
+  background-color: #ede7f6;
+}
+
 .carousel-content {
 	display: none;
 }
 
 .carousel-content.active {
 	display: block;
+}
+
+.carousel {
+position: relative;
+overflow: hidden;
+width: 500px;
+height: 300px;
+border:2px solid #333;
+border-radius: 40px;
+margin: 100px auto;
+padding: 0;
+}
+
+.carousel img{
+  width:100%;
+  min-height:300px;
+  margin:0;
+  padding:0;
+  border:0;
+
+}
+
+.control{
+  margin: 0%;
 }
